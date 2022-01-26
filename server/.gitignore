@@ -1,0 +1,25 @@
+# env
+# .env
+
+# npm
+/node_modules
+*.log
+*.gz
+
+# Linux
+.directory
+*~
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode
+.idea
