@@ -3,9 +3,7 @@ const { dbTables } = require('../helpers/constants');
 
 class ArticleRepository {
 	static getMany() {
-		return knex(dbTables.articles)
-			.select('id', 'heading', 'created_at')
-			.orderBy('id', 'desc');
+		return knex(dbTables.articles).select('id', 'heading', 'created_at').orderBy('id', 'desc');
 	}
 
 	static async getOne(id) {
