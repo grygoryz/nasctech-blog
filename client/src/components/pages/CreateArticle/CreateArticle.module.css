@@ -1,0 +1,14 @@
+.wrap {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-bottom: 12px;
+}

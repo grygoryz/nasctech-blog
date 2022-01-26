@@ -1,0 +1,12 @@
+.wrap {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}

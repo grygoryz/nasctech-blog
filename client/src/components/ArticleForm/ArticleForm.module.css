@@ -1,0 +1,8 @@
+.wrap {
+    display: flex;
+    flex-flow: column;
+}
+
+.wrap input, textarea {
+    margin-bottom: 20px;
+}

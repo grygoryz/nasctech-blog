@@ -1,10 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const { router: articleRouter } = require('./routes/articles');
 
 const app = express();
 
 // middlewares
+app.use(cors());
 app.use(bodyParser.json());
 
 // routes
