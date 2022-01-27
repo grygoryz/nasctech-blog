@@ -27,7 +27,7 @@ const ArticlesPage = () => {
         <button type="button" onClick={onCreateArticleClick}>Create article</button>
       </div>
       {data?.map(({ id, heading, created_at: createdAt }) => (
-        <ArticleCard className={s.card} key={id} heading={heading} createdAt={createdAt} />
+        <ArticleCard className={s.card} key={id} heading={heading} createdAt={createdAt} link={`/articles/${id}`} />
       ))}
     </div>
   );

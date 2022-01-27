@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Articles } from '../../api';
+import routes from '../routes';
 
 export const useArticles = () => {
   const navigate = useNavigate();
@@ -23,7 +24,7 @@ export const useArticles = () => {
   };
 
   const onCreateArticleClick = () => {
-    navigate('/articles/create');
+    navigate(routes.createArticle);
   };
 
   const resultData = useMemo(

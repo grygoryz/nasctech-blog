@@ -1,0 +1,15 @@
+.wrap {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.buttons {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    margin-left: 10px;
+}

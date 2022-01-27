@@ -1,0 +1,14 @@
+.wrap {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.updatedAt {
+    margin-top: 20px
+}

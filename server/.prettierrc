@@ -6,7 +6,7 @@
   "useTabs": true,
   "tabWidth": 4,
   "arrowParens": "avoid",
-  "printWidth": 105,
+  "printWidth": 110,
   "overrides": [{
     "files": "*.json",
     "options": {

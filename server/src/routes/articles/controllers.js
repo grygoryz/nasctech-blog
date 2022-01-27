@@ -37,9 +37,9 @@ const updateArticle = async (req, res, next) => {
 	try {
 		const { heading, content } = req.body;
 		const { id } = req.params;
-		await ArticleService.updateArticle(id, heading, content);
+		const updated_at = await ArticleService.updateArticle(id, heading, content);
 
-		res.sendStatus(200);
+		res.status(200).json({ updated_at });
 	} catch (err) {
 		return next(new AppError(err.message));
 	}

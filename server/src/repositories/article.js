@@ -24,7 +24,6 @@ class ArticleRepository {
 				heading,
 				content,
 				created_at: timestamp,
-				updated_at: timestamp,
 			})
 			.returning('id');
 
@@ -39,11 +38,14 @@ class ArticleRepository {
 				content,
 				updated_at: timestamp,
 			})
-			.where({ id });
+			.where({ id })
+			.returning('updated_at');
 
 		if (result === 0) {
 			throw new Error('Article not found');
 		}
+
+		return result[0].updated_at;
 	}
 
 	static async delete(id) {
