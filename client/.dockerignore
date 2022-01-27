@@ -1,0 +1,11 @@
+node_modules
+dist
+build 
+.env
+.gitignore
+.DS_Store
+.gitlab-ci.yml
+.docker-ignore
+.idea
+.git
+.docker-compose.yml
