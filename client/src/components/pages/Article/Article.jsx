@@ -36,7 +36,7 @@ const ArticlePage = () => {
             <div className={s.buttons}>
               <button type="button" onClick={onBackClick}>Back</button>
               <button type="button" onClick={onDeleteArticle}>Delete</button>
-              <button type="button" onClick={onEditClick}>onEditClick</button>
+              <button type="button" onClick={onEditClick}>Edit</button>
             </div>
             <ArticleDetails
               heading={heading}
