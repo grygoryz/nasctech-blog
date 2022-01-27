@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start:dev": "nodemon ./src/index.js",
-    "start:prod": "node ./src/index.js"
+    "start:prod": "node ./src/index.js",
+    "migrate": "knex migrate:latest"
   },
   "author": "Grigory Tsyganok (grigoryts@yahoo.com)",
   "license": "ISC",
